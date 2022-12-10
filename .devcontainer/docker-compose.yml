@@ -1,0 +1,7 @@
+version: '3'
+services:
+  document:
+    image: plantuml/plantuml-server
+    container_name: plantuml-container
+    volumes:
+      - ..:/workspace
