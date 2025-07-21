@@ -2,7 +2,7 @@
 
 PlantUMLでの描画サンプルです
 
-## サンプル図1
+## アクティビティ図
 
 ```plantuml
 @startuml
@@ -10,13 +10,13 @@ start
 :サンプル;
 if (分岐) then(no)
 else(yes)
-    !include ./sample2.md!sample2_1
+    !include ./sample2.md!sample
 endif
 end
 @enduml
 ```
 
-## サンプル図2
+## シーケンス図
 
 ```plantuml
 @startuml
@@ -26,7 +26,3 @@ t -> w: 表示してほしい
 w -> t: 表示してあげる
 @enduml
 ```
-
-- [サンプル](#サンプル)
-  - [サンプル図1](#サンプル図1)
-  - [サンプル図2](#サンプル図2)

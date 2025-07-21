@@ -3,7 +3,7 @@
 ## アクティビティ図
 
 ```plantuml
-@startuml (id=sample2_1)
+@startuml (id=sample)
 :別ファイルに定義;
 note right
     別で定義した図をinclude出来ます
